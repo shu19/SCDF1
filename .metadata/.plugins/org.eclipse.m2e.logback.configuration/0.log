@@ -1,0 +1,456 @@
+2019-04-18 19:47:26,695 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-04-18 19:48:36,433 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:source:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\source\pom.xml.
+2019-04-18 19:48:39,953 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /source/src/main/java
+2019-04-18 19:48:39,954 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /source/src/test/java
+2019-04-18 19:48:41,179 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2019-04-18 19:48:46,044 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:48:46,045 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:48:46,045 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:48:46,047 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:48:46,048 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:48:55,299 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:48:55,300 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:48:55,300 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:48:55,305 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:48:55,306 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:48:59,882 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:processor:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\processor\pom.xml.
+2019-04-18 19:49:01,290 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/main/java
+2019-04-18 19:49:01,291 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/test/java
+2019-04-18 19:49:01,535 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-04-18 19:49:03,392 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:03,393 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:03,393 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:03,395 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:03,395 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:49:04,730 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:04,730 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:04,730 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:04,731 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:04,732 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:49:14,068 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.javainuse:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 19:49:15,260 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/main/java
+2019-04-18 19:49:15,261 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/test/java
+2019-04-18 19:49:15,707 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-04-18 19:49:17,323 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:17,324 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:17,324 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:17,325 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:17,326 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 19:49:18,530 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:18,530 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:18,530 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:18,532 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:18,532 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 19:49:36,886 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:36,887 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:49:36,887 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:49:36,888 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:36,889 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:49:43,581 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:43,581 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:43,581 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 19:49:43,584 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:43,584 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 19:49:52,710 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:52,711 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:52,711 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:49:52,714 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:49:52,714 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:50:04,995 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:source:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\source\pom.xml.
+2019-04-18 19:50:06,376 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:50:06,376 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:50:06,376 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:50:06,378 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:50:06,378 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:50:48,719 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:50:48,719 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:50:48,720 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:50:48,721 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:50:48,721 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:51:08,428 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:51:08,429 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:51:08,429 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:51:08,430 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:51:08,430 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:51:12,272 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:51:12,272 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:51:12,272 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:51:12,273 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:51:12,273 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:53:02,116 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:02,117 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:02,117 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:02,118 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:02,118 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:53:06,481 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:06,481 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:06,481 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:06,483 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:06,483 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:53:41,993 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:41,993 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:41,994 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:53:41,996 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:53:41,997 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:54:31,563 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:31,564 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:31,564 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:31,565 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:31,566 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:54:36,836 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:36,836 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:36,836 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:36,837 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:36,837 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:54:39,754 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:39,755 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:39,755 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:54:39,756 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:54:39,756 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:55:25,738 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 19:55:26,428 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:source:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\source\pom.xml.
+2019-04-18 19:55:27,896 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /source/src/main/java
+2019-04-18 19:55:27,897 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /source/src/test/java
+2019-04-18 19:55:28,451 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 19:55:29,759 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:55:29,759 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:55:29,759 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:55:29,760 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:55:29,761 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:55:46,017 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:55:46,018 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:55:46,018 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 19:55:46,020 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:55:46,020 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 19:56:56,369 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:processor:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\processor\pom.xml.
+2019-04-18 19:56:57,777 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:56:57,777 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:56:57,777 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:56:57,778 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:56:57,779 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:58:36,025 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:36,025 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:36,025 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:36,026 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:36,026 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:58:41,240 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:41,240 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:41,241 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:41,244 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:41,244 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:58:55,610 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:55,610 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:55,610 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:58:55,612 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:58:55,612 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:59:07,415 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 19:59:08,026 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:processor:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\processor\pom.xml.
+2019-04-18 19:59:09,614 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/main/java
+2019-04-18 19:59:09,615 [Worker-5: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/test/java
+2019-04-18 19:59:09,880 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 19:59:11,100 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:11,100 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:11,101 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:11,102 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:11,102 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:59:20,816 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:20,817 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:20,817 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:20,819 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:20,819 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:59:27,310 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:27,310 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:27,310 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:27,311 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:27,312 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 19:59:37,280 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 19:59:37,981 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:processor:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\processor\pom.xml.
+2019-04-18 19:59:39,072 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/main/java
+2019-04-18 19:59:39,073 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/test/java
+2019-04-18 19:59:39,324 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 19:59:40,228 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:40,228 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:40,228 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 19:59:40,230 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 19:59:40,230 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:00:05,729 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:05,729 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:05,730 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:05,731 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:05,731 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:00:30,800 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:30,800 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:30,800 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:30,802 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:30,802 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:00:52,505 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:52,505 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:52,505 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:00:52,507 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:00:52,507 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:01:28,697 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:01:28,697 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:01:28,697 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:01:28,698 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:01:28,699 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:02:16,985 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 20:02:17,587 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:processor:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\processor\pom.xml.
+2019-04-18 20:02:18,581 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/main/java
+2019-04-18 20:02:18,582 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /processor/src/test/java
+2019-04-18 20:02:19,090 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 20:02:20,283 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:02:20,283 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:02:20,283 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:02:20,284 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:02:20,284 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:02:38,408 [Worker-16: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 20:02:39,479 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:02:39,479 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:02:39,479 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:02:39,480 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:02:39,481 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:03:11,021 [Worker-14: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 20:03:21,585 [Worker-13: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 20:03:22,376 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:03:22,377 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:03:22,377 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:03:22,378 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:03:22,378 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:03:51,895 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:03:51,895 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:03:51,895 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:03:51,896 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:03:51,897 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:04:53,421 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:04:53,421 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:04:53,422 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:04:53,423 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:04:53,423 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:04:57,880 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:04:57,880 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:04:57,880 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:04:57,881 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:04:57,881 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:05:06,832 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:06,833 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:06,833 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:06,834 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:06,834 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:05:15,701 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 20:05:16,337 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 20:05:17,778 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/main/java
+2019-04-18 20:05:17,779 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/test/java
+2019-04-18 20:05:18,104 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 20:05:19,225 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:19,225 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:19,225 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:19,226 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:19,227 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:05:34,171 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:34,171 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:34,171 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:34,172 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:34,172 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:05:40,854 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-04-18 20:05:41,462 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:sink:0.0.1-SNAPSHOT @ C:\Users\pparaska\Desktop\practise\sink\pom.xml.
+2019-04-18 20:05:42,505 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/main/java
+2019-04-18 20:05:42,506 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sink/src/test/java
+2019-04-18 20:05:43,091 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-04-18 20:05:44,237 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:44,238 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:44,238 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:05:44,239 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:05:44,239 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-18 20:06:04,453 [Worker-14: Launching Executing install in C__Users_pparaska_Desktop_practise_source] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\source
+2019-04-18 20:06:04,454 [Worker-14: Launching Executing install in C__Users_pparaska_Desktop_practise_source] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-18 20:06:15,161 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:06:15,161 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 20:06:15,161 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-18 20:06:15,162 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:06:15,163 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-18 20:06:41,309 [Worker-18: Launching Executing install in C__Users_pparaska_Desktop_practise_processor] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\processor
+2019-04-18 20:06:41,309 [Worker-18: Launching Executing install in C__Users_pparaska_Desktop_practise_processor] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-18 20:06:49,240 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:06:49,240 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:06:49,241 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-18 20:06:49,242 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:06:49,242 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-18 20:06:58,421 [Worker-5: Launching Executing install in C__Users_pparaska_Desktop_practise_sink] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\sink
+2019-04-18 20:06:58,422 [Worker-5: Launching Executing install in C__Users_pparaska_Desktop_practise_sink] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-18 20:07:06,596 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:07:06,597 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:07:06,597 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-18 20:07:06,598 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-18 20:07:06,598 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-22 19:36:06,368 [Worker-396: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.springclouddataflow:readFile:0.0.1-SNAPSHOT @ C:\Users\pparaska\Downloads\readFile\pom.xml.
+2019-04-22 19:36:14,170 [Worker-396: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /readFile/src/main/java
+2019-04-22 19:36:14,210 [Worker-396: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /readFile/src/main/resources
+2019-04-22 19:36:14,231 [Worker-396: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /readFile/src/main/resources
+2019-04-22 19:36:14,250 [Worker-396: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /readFile/src/test/java
+2019-04-22 19:36:16,168 [Worker-396: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 24 sec
+2019-04-22 19:36:20,854 [Worker-396: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:36:20,900 [Worker-396: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:36:20,927 [Worker-396: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:36:20,929 [Worker-396: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:36:20,929 [Worker-396: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:36:25,118 [Worker-506: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:36:25,120 [Worker-506: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:36:25,120 [Worker-506: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:36:25,121 [Worker-506: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:36:25,121 [Worker-506: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:37:07,930 [Worker-591: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:37:07,973 [Worker-591: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:37:07,978 [Worker-591: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:37:07,979 [Worker-591: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:37:07,979 [Worker-591: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:39:26,918 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:39:26,919 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:39:26,924 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:39:26,925 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:39:26,925 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:40:54,106 [Worker-787: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:40:54,136 [Worker-787: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:40:54,137 [Worker-787: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:40:54,139 [Worker-787: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:40:54,139 [Worker-787: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:41:08,135 [Worker-806: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:08,146 [Worker-806: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:41:08,147 [Worker-806: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:08,211 [Worker-806: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:08,211 [Worker-806: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:41:18,827 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:18,829 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:18,832 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:18,833 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:18,834 [Worker-868: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:41:27,494 [Worker-954: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:27,497 [Worker-954: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:27,501 [Worker-954: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:27,508 [Worker-954: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:27,508 [Worker-954: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:41:33,450 [Worker-1053: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:33,451 [Worker-1053: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:33,454 [Worker-1053: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:33,456 [Worker-1053: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:33,456 [Worker-1053: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:41:53,340 [Worker-1172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:53,341 [Worker-1172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:53,344 [Worker-1172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:41:53,346 [Worker-1172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:41:53,347 [Worker-1172: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:42:27,250 [Worker-1270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:42:27,261 [Worker-1270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-22 19:42:27,261 [Worker-1270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:42:27,334 [Worker-1270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:42:27,334 [Worker-1270: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:44:25,659 [Worker-1385: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:44:25,662 [Worker-1385: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:44:25,666 [Worker-1385: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:44:25,671 [Worker-1385: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:44:25,671 [Worker-1385: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:44:56,782 [Worker-1497: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:44:56,783 [Worker-1497: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:44:56,787 [Worker-1497: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:44:56,792 [Worker-1497: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:44:56,792 [Worker-1497: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:45:48,901 [Worker-1694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:45:48,903 [Worker-1694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:45:48,907 [Worker-1694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:45:48,912 [Worker-1694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:45:48,912 [Worker-1694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:46:17,430 [Worker-1812: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:46:17,435 [Worker-1812: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:46:17,439 [Worker-1812: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:46:17,444 [Worker-1812: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:46:17,444 [Worker-1812: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:46:23,737 [Worker-1860: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:46:23,738 [Worker-1860: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:46:23,740 [Worker-1860: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:46:23,743 [Worker-1860: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:46:23,743 [Worker-1860: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:49:56,531 [Worker-2068: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:49:56,532 [Worker-2068: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-22 19:49:56,532 [Worker-2068: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-22 19:49:56,537 [Worker-2068: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:49:56,549 [Worker-2068: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-22 19:51:07,943 [Worker-2198: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:51:07,946 [Worker-2198: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:51:07,950 [Worker-2198: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:51:07,955 [Worker-2198: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:51:07,955 [Worker-2198: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:51:29,526 [Worker-2302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:51:29,529 [Worker-2302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:51:29,532 [Worker-2302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-22 19:51:29,537 [Worker-2302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:51:29,538 [Worker-2302: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-22 19:52:16,463 [Worker-2436: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:16,464 [Worker-2436: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:16,464 [Worker-2436: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:16,474 [Worker-2436: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:16,474 [Worker-2436: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-22 19:52:23,936 [Worker-2476: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:23,936 [Worker-2476: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:23,936 [Worker-2476: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:23,937 [Worker-2476: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:23,938 [Worker-2476: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-22 19:52:42,404 [Worker-2546: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:42,405 [Worker-2546: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:42,405 [Worker-2546: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-22 19:52:42,406 [Worker-2546: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:52:42,406 [Worker-2546: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-22 19:53:54,257 [Worker-2611: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:53:54,257 [Worker-2611: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-22 19:53:54,257 [Worker-2611: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-22 19:53:54,258 [Worker-2611: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:53:54,259 [Worker-2611: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-22 19:54:22,802 [Worker-2635: Launching Executing install in C__Users_pparaska_Desktop_practise_processor] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\processor
+2019-04-22 19:54:22,803 [Worker-2635: Launching Executing install in C__Users_pparaska_Desktop_practise_processor] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-22 19:54:42,705 [Worker-2688: Launching Executing install in C__Users_pparaska_Desktop_practise_source] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\source
+2019-04-22 19:54:42,705 [Worker-2688: Launching Executing install in C__Users_pparaska_Desktop_practise_source] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-22 19:54:55,208 [Worker-2735: Launching Executing install in C__Users_pparaska_Desktop_practise_sink] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\pparaska\Desktop\practise\sink
+2019-04-22 19:54:55,208 [Worker-2735: Launching Executing install in C__Users_pparaska_Desktop_practise_sink] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2019-04-22 19:55:57,466 [Worker-2796: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:55:57,467 [Worker-2796: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-22 19:55:57,467 [Worker-2796: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\main\resources
+2019-04-22 19:55:57,468 [Worker-2796: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-22 19:55:57,468 [Worker-2796: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\sink\src\test\resources
+2019-04-23 10:26:43,001 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 10:26:43,015 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 10:26:43,016 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 10:26:43,018 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 10:26:43,018 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-23 10:26:43,156 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 10:26:43,169 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-23 10:26:43,169 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\main\resources
+2019-04-23 10:26:43,192 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 10:26:43,194 [Worker-2893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\source\src\test\resources
+2019-04-23 11:21:54,199 [Worker-3034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:21:54,233 [Worker-3034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-23 11:21:54,245 [Worker-3034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-23 11:21:54,268 [Worker-3034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:21:54,268 [Worker-3034: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-23 11:22:03,886 [Worker-3108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:03,888 [Worker-3108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:03,888 [Worker-3108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:03,927 [Worker-3108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:03,927 [Worker-3108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-23 11:22:16,073 [Worker-3142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:16,074 [Worker-3142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:16,074 [Worker-3142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:16,075 [Worker-3142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:16,075 [Worker-3142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-23 11:22:48,166 [Worker-3254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:48,167 [Worker-3254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:48,167 [Worker-3254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:22:48,170 [Worker-3254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:22:48,170 [Worker-3254: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources
+2019-04-23 11:45:47,833 [Worker-3694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:45:47,838 [Worker-3694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-23 11:45:47,842 [Worker-3694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-23 11:45:47,847 [Worker-3694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:45:47,848 [Worker-3694: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Downloads\readFile\src\test\resources
+2019-04-23 11:47:07,485 [Worker-3822: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:47:07,486 [Worker-3822: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:47:07,486 [Worker-3822: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\main\resources
+2019-04-23 11:47:07,499 [Worker-3822: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-23 11:47:07,499 [Worker-3822: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\pparaska\Desktop\practise\processor\src\test\resources

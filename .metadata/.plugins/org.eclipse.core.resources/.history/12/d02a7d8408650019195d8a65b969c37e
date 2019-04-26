@@ -1,0 +1,25 @@
+package com.springclouddataflow.readFile;
+
+import java.io.IOException;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ReadFileApplication {
+
+	  public static void main(String[] args) throws IOException
+	    {
+	        String fileName = "config/sample.txt";
+	        ClassLoader classLoader = new ReadResourceFileDemo().getClass().getClassLoader();
+	 
+	        File file = new File(classLoader.getResource(fileName).getFile());
+	         
+	        //File is found
+	        System.out.println("File Found : " + file.exists());
+	         
+	        //Read File Content
+	        String content = new String(Files.readAllBytes(file.toPath()));
+	        System.out.println(content);
+	    }
+	}
