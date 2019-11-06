@@ -1,0 +1,6 @@
+source.Mulesoft-Receiver=file://data/anypoint-mq-receiver-0.0.1-SNAPSHOT.jar
+processor.Legacy-IOT-Device-Integration=file://data/Legacy-IOT-Device-Integration-0.0.1-SNAPSHOT.jar
+processor.capgemini-dcp-csv-to-json-processor=file://data/capgemini-dcp-csv-to-json-processor-0.0.1-SNAPSHOT.jar
+processor.capgemini-dcp-logger=file://data/capgemini-dcp-kafka-sink-0.0.1-SNAPSHOT.jar
+sink.capgemini-dcp-mongodb-sink=file://data/capgemini-dcp-mongodb-sink-0.0.1-SNAPSHOT.jar
+sink.email=file://data/email-service-0.0.1-SNAPSHOT.jar
