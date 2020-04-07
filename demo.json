@@ -1,0 +1,339 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This document lists version 1 for Bill Adjustments lookup APIs.",
+    "version": "1.0",
+    "title": "Bill Adjustments lookup APIs"
+  },
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "bill-adjustments",
+      "description": "Adjustments performed on a billing account's or subscriber's bill"
+    }
+  ],
+  "paths": {
+    "/billing/v1/bills/-/get/adjustments": {
+      "post": {
+        "tags": [
+          "bill-adjustments"
+        ],
+        "summary": "Get adjustments for a given billing account or subscriber. May specify if you are interested in the subscriber-level adjustments, ban-level adjustments or both.",
+        "description": "This API retrives adjustment information about a specific billing account or subscriber. You may also specify if the API should return the ban-level adjustments only, the subscriber-level adjustments only, or both.",
+        "operationId": "bill-adjustments",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "authorization",
+            "in": "header",
+            "description": "authorization header",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "activityid",
+            "in": "header",
+            "description": "activity id",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "dealercode",
+            "in": "header",
+            "description": "dealer code",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "applicationuserid",
+            "in": "header",
+            "description": "application user id",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "pagenumber",
+            "description": "the page number to use while paginating on the adjustments sub-resource",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "pagesize",
+            "description": "the page size to use while paginating on the adjustments sub-resource",
+            "in": "query",
+            "required": false,
+            "type": "integer"
+          },
+          {
+            "name": "excludeSubscriberLevelAdjustments",
+            "description": "Whether to include the subscriber-level charges in the response or the ban-level adjustments only",
+            "in": "query",
+            "required": false,
+            "type": "boolean"
+          },
+          {
+            "in": "body",
+            "name": "request",
+            "description": "request",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/BillAdjustmentRequest"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The request was successful",
+            "schema": {
+              "$ref": "#/definitions/BillAdjustmentResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request error"
+          },
+          "404": {
+            "description": "Resource not found"
+          },
+          "500": {
+            "description": "The server encountered an unexpected condition which prevented it from fulfilling the request"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "BillAdjustmentRequest": {
+      "type": "object",
+      "properties": {
+        "billId": {
+          "type": "object",
+          "properties": {
+            "billingAccountId": {
+              "type": "string",
+              "format": "int64"
+            },
+            "billSequenceNumber": {
+              "type": "string",
+              "format": "int64"
+            },
+            "msisdn": {
+              "description": "this is an optional input, when interested in adjustments for a specific subscriber only",
+              "type": "string",
+              "format": "int64"
+            },
+            "fromDate": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "BillAdjustmentResponse": {
+      "type": "object",
+      "properties": {
+        "adjustments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Adjustment"
+          }
+        }
+      }
+    },
+    "Adjustment": {
+      "type": "object",
+      "properties": {
+        "billingAccount": {
+          "type": "string"
+        },
+        "msisdn": {
+          "type": "string"
+        },
+        "entitySequenceNumber": {
+          "type": "string",
+          "format": "int64"
+        },
+        "creationDate": {
+          "type": "string"
+        },
+        "billComment": {
+          "type": "string"
+        },
+        "chargeGroupId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "groupId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "approvalIndicator": {
+          "type": "string"
+        },
+        "approvalDate": {
+          "type": "string"
+        },
+        "approvalUID": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "creatorUID": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "followUpId": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "creditETFIndincator": {
+          "type": "string"
+        },
+        "totalInstall": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "chargeSequenceNumber": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "reversedIndicator": {
+          "type": "string"
+        },
+        "ignoreIndicator": {
+          "type": "string"
+        },
+        "balanceImpact": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "levelCode": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "groupLevel": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "ccReason": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "productType": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "sourceApplication": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "adjustmentReason": {
+          "$ref": "#/definitions/AdjustmentReason"
+        },
+        "bill": {
+          "$ref": "./definitions.json#/definitions/BillRef"
+        },
+        "taxInformation": {
+          "$ref": "#/definitions/AdjustmentTaxInformation"
+        },
+        "activity": {
+          "$ref": "#/definitions/AdjustmentActivity"
+        }
+      }
+    },
+    "AdjustmentActivity": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number",
+          "format": "double"
+        },
+        "billSequenceNumber": {
+          "type": "string",
+          "format": "int64"
+        },
+        "sequenceNumber": {
+          "type": "string",
+          "format": "int64"
+        },
+        "activityDate": {
+          "type": "string"
+        },
+        "activityReason": {
+          "$ref": "#/definitions/ActivityReason"
+        }
+      }
+    },
+    "AdjustmentTaxInformation": {
+      "type": "object",
+      "properties": {
+        "cityCustAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "countryCustAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "stateCustAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "mis1CustAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "mis2CustAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "federalAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "roamingAmount": {
+          "type": "number",
+          "format": "double"
+        },
+        "taxIndicator": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        },
+        "taxPackage": {
+          "$ref": "./definitions.json#/definitions/BasicRef"
+        }
+      }
+    },
+    "AdjustmentReason": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        }
+      }
+    },
+    "ActivityReason": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "reasonCode": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
