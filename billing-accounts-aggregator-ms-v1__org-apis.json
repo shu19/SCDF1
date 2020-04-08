@@ -1,0 +1,563 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This document lists version 1 for organizations lookup APIs.",
+    "version": "1.0",
+    "title": "Organizations lookup APIs with aggregated data"
+  },
+  "basePath": "/billing/v1/organizations",
+  "tags": [
+    {
+      "name": "organization",
+      "description": "Represents a group of people identified by a shared interest or purpose such as a corporate node"
+    }
+  ],
+  "paths": {
+    "/billing/v1/organizations/{organizationId}/org-details": {
+      "get": {
+        "tags": [
+          "organization"
+        ],
+        "summary": "Get details of an organization resource, including aggregated totals",
+        "description": "This API retrives information about an organization and aggregated information for its sub-resources",
+        "operationId": "billing.organization-details.aggregated",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/parameters/header-activityid"
+          },
+          {
+            "$ref": "#/parameters/header-authorization"
+          },
+          {
+            "$ref": "#/parameters/header-dealercode"
+          },
+          {
+            "$ref": "#/parameters/header-applicationuserid"
+          },
+          {
+            "$ref": "#/parameters/path-organization-id"
+          },
+          {
+            "$ref": "#/parameters/query-pagenumber"
+          },
+          {
+            "$ref": "#/parameters/query-pagesize"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The request was successful",
+            "schema": {
+              "$ref": "#/definitions/OrganizationDetailsResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request error"
+          },
+          "404": {
+            "description": "Resource not found"
+          },
+          "500": {
+            "description": "The server encountered an unexpected condition which prevented it from fulfilling the request"
+          }
+        }
+      }
+    },
+    "/billing/v1/organizations/-/get/organizationbanattributes": {
+      "get": {
+        "tags": [
+          "organization"
+        ],
+        "summary": "Get details of an organization resource based on financial account attributes",
+        "description": "This API retrives information about an organization based on financial account attributes",
+        "operationId": "billing.organization-ban-attributes",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/parameters/header-activityid"
+          },
+          {
+            "$ref": "#/parameters/header-authorization"
+          },
+          {
+            "$ref": "#/parameters/header-dealercode"
+          },
+          {
+            "$ref": "#/parameters/header-applicationuserid"
+          },
+          {
+            "$ref": "#/parameters/query-organization-id"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The request was successful",
+            "schema": {
+              "$ref": "#/definitions/OrganizationBanAttributesResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request error"
+          },
+          "404": {
+            "description": "Resource not found"
+          },
+          "500": {
+            "description": "The server encountered an unexpected condition which prevented it from fulfilling the request"
+          }
+        }
+      }
+    },
+    "/billing/v1/organizations/org-summary": {
+      "get": {
+        "tags": [
+          "organization"
+        ],
+        "summary": "Get summary and totals attributes of organization resources by a collection of either organization ids or tax ids",
+        "description": "This API retrives a collection of organizations based on search criteria, and also provides aggregated totals for its sub-resources. The criteria can only be a collection of organization ids or a collection of tax ids, it cannot be a combination of the two.",
+        "operationId": "billing.organization-search.aggregated",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "$ref": "#/parameters/header-activityid"
+          },
+          {
+            "$ref": "#/parameters/header-authorization"
+          },
+          {
+            "$ref": "#/parameters/header-dealercode"
+          },
+          {
+            "$ref": "#/parameters/header-applicationuserid"
+          },
+          {
+            "$ref": "#/parameters/query-organizations-ids"
+          },
+          {
+            "$ref": "#/parameters/query-taxes-ids"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The request was successful",
+            "schema": {
+              "$ref": "#/definitions/OrganizationsSearchResponse"
+            }
+          },
+          "400": {
+            "description": "Bad request error"
+          },
+          "404": {
+            "description": "Resource not found"
+          },
+          "500": {
+            "description": "The server encountered an unexpected condition which prevented it from fulfilling the request"
+          }
+        }
+      }
+    }
+  },
+  "parameters": {
+    "header-activityid": {
+      "in": "header",
+      "name": "activityid",
+      "description": "activity id",
+      "required": true,
+      "type": "string"
+    },
+    "header-authorization": {
+      "in": "header",
+      "name": "authorization",
+      "description": "authorization header",
+      "required": false,
+      "type": "string"
+    },
+    "header-dealercode": {
+      "in": "header",
+      "name": "dealercode",
+      "description": "dealer code",
+      "required": false,
+      "type": "string"
+    },
+    "header-applicationuserid": {
+      "in": "header",
+      "name": "applicationuserid",
+      "description": "application user id",
+      "required": false,
+      "type": "string"
+    },
+    "path-organization-id": {
+      "in": "path",
+      "name": "organizationId",
+      "description": "organization id",
+      "required": true,
+      "type": "string"
+    },
+    "query-organization-id": {
+      "in": "query",
+      "name": "organizationId",
+      "description": "organization id",
+      "required": false,
+      "type": "string"
+    },
+    "query-organizations-ids": {
+      "name": "organizationId",
+      "in": "query",
+      "description": "organization id",
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "query-taxes-ids": {
+      "name": "taxId",
+      "in": "query",
+      "description": "tax id",
+      "required": false,
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "query-pagenumber": {
+      "in": "query",
+      "name": "pagenumber",
+      "required": false,
+      "type": "integer"
+    },
+    "query-pagesize": {
+      "in": "query",
+      "name": "pagesize",
+      "required": false,
+      "type": "integer"
+    }
+  },
+  "definitions": {
+    "IdRef": {
+      "type": "object",
+      "properties": {
+        "rel": {
+          "type": "string",
+          "enum": [
+            "self",
+            "parent",
+            "child",
+            "next",
+            "prev",
+            "first",
+            "last",
+            "item",
+            "collection",
+            "organization",
+            "subscriber",
+            "financial-account",
+            "next-organization",
+            "usage",
+            "bill-charges",
+            "service-agreement",
+            "bill-adjustments"
+          ]
+        },
+        "id": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        }
+      }
+    },
+    "ProductSpecificationRef": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "ratePlan",
+            "service",
+            "data"
+          ]
+        },
+        "offeringIndicator": {
+          "type": "string"
+        }
+      }
+    },
+    "Price": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "ProductOfferingPrice": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "$ref": "#/definitions/Price"
+        }
+      }
+    },
+    "OrganizationSummary": {
+      "type": "object",
+      "properties": {
+        "_links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdRef"
+          }
+        },
+        "taxIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tradingName": {
+          "type": "string"
+        },
+        "organizationTotals": {
+          "type": "object",
+          "properties": {
+            "financialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "activefinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "suspendedfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "reservedfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "cancelledfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "subscribersTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "activeSubscribersTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "suspendedSubscribersTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "reservedSubscribersTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "cancelledSubscribersTotal": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        },
+        "totalMonthlyRecurringCharges": {
+          "type": "number",
+          "format": "double"
+        },
+        "totalMonthlyIncidentalCharges": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "ProductOfferingRef": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "price": {
+          "$ref": "#/definitions/ProductOfferingPrice"
+        },
+        "specification": {
+          "$ref": "#/definitions/ProductSpecificationRef"
+        }
+      }
+    },
+    "ProductRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "startDateTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "endDateTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "ratePlan",
+            "service",
+            "data"
+          ]
+        },
+        "productOffering": {
+          "$ref": "#/definitions/ProductOfferingRef"
+        }
+      }
+    },
+    "OrganizationsSearchResponse": {
+      "type": "object",
+      "properties": {
+        "organizations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationSummary"
+          }
+        }
+      }
+    },
+    "financialAccountRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "_links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdRef"
+          }
+        },
+        "financialAccountTotals": {
+          "type": "object",
+          "properties": {
+            "subscribersTotal": {
+              "type": "integer"
+            },
+            "activeSubscribersTotal": {
+              "type": "integer"
+            },
+            "suspendedSubscribersTotal": {
+              "type": "integer"
+            },
+            "reservedSubscribersTotal": {
+              "type": "integer"
+            },
+            "cancelledSubscribersTotal": {
+              "type": "integer"
+            }
+          }
+        },
+        "ratePlans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProductRef"
+          }
+        },
+        "services": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ProductRef"
+          }
+        },
+        "totalMonthlyRecurringCharges": {
+          "type": "number",
+          "format": "double"
+        },
+        "totalMonthlyIncidentalCharges": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "OrganizationBanAttributesResponse": {
+      "type": "object",
+      "properties": {
+        "taxIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "OrganizationDetailsResponse": {
+      "type": "object",
+      "properties": {
+        "_links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/IdRef"
+          }
+        },
+        "tradingName": {
+          "type": "string"
+        },
+        "taxIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "organizationTotals": {
+          "type": "object",
+          "properties": {
+            "financialAccountsTotal": {
+              "type": "integer"
+            },
+            "activefinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "suspendedfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "reservedfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "cancelledfinancialAccountsTotal": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        },
+        "financialAccounts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/financialAccountRef"
+          }
+        }
+      }
+    }
+  }
+}

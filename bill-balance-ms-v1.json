@@ -1,0 +1,429 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "BillBalanceServices",
+    "description": "This service returns updated bill balance for list of financial account numbers",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Digital Billing",
+      "email": "emailid@emailid.com"
+    },
+    "x-createdBy": {
+      "dateCreated": "Sun Apr 22 13:08:21 2018",
+      "createdBy": "apitest",
+      "application": "Recite",
+      "appVersion": "0.3.6.2170",
+      "documentId": "bf1badac-33bc-4cfb-baf4-363194f3e53d",
+      "status": "Conceptual - Initial",
+      "classification": "7.3.4 Billing Inquiries & Support Mgmt.",
+      "profile": "Core Business Capability Service",
+      "serviceLayer": "Resource - Billing"
+    }
+  },
+  "host": "localhost",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/billing-experience/v1/bills/calculate-updated-balance": {
+      "post": {
+        "tags": [
+          "BillBalance"
+        ],
+        "summary": "A post to get updated bill balance for list of financial account numbers.",
+        "description": "get updated bill balances.",
+        "operationId": "calculateUpdatedBillBalance",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "financialAccountNumberList",
+            "in": "body",
+            "description": "List of financial account numbers.",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/financialAccountNumberList"
+            }
+          },
+          {
+            "name": "Authorization",
+            "in": "header",
+            "description": "OAuth 2.0 access token with the authentication type set as Bearer.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "The Content-Length header specifies the actual length of the returned payload.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Date",
+            "in": "header",
+            "description": "The date and time that the message was originated (in HTTP-date format as defined by RFC 7231 Date/Time Formats).",
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "name": "activityid",
+            "in": "header",
+            "description": "Unique id alphanumeric value generated and sent by the partner to identify every the service request uniquely. Sample: XyzA:D1s5s1i-X6AFRvfiPBfs-1234  Pass as is to downstream calls.",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "applicationid",
+            "in": "header",
+            "description": "Identifies the application, system, or tool that is being used to perform the transaction related to this request. Below are the sample values.ACUI, ESERVICE, REBELLION, WARP",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "applicationuserid",
+            "in": "header",
+            "description": "NT id of the one who is managing the transaction from CARE/RETAIL channels.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "authcustomerid",
+            "in": "header",
+            "description": "Customer id _ of the person that is interacting with the system.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "authfinancialaccountid",
+            "in": "header",
+            "description": "Financial account that the customer intends to operate on, while interacting with the system.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "authlineofserviceid",
+            "in": "header",
+            "description": "Service Line that the customer intends to operate on, while interacting with the system.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "channelid",
+            "in": "header",
+            "description": "Identifies the business unit or sales channel for the Request.Below are the sample values:            Care            TeleSales            FullService            BusinessDirect            FinancePartners            NonFinancePartners            SelfServiceAuthenticated            SelfServiceAnonymous            InteractiveVoiceResponse",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "dealercode",
+            "in": "header",
+            "description": "Unique code to identify the dealer/rep user.",
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "name": "interactionid",
+            "in": "header",
+            "description": "Alphanumeric value represent a common transaction id across all calls made from UI, while completing all business activity needs of a particular customer.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "segmentationid",
+            "in": "header",
+            "description": "Identifier of customers primary data center.Sample: Polaris,Titan",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "senderid",
+            "in": "header",
+            "description": "Uniquely identifies an Operation consumer. Below are the sample values.ACUI, MYPORTAL, QVXP, REBELLION, WALMARTRETAIL, SAMSCLUBRETAIL.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "sessionid",
+            "in": "header",
+            "description": "A value populated by the sender used to track the transactions that occur during a session, a long-lasting interaction that ismaintained by the sender.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "storeid",
+            "in": "header",
+            "description": "Unique identifier for the retail store location.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "terminalid",
+            "in": "header",
+            "description": "Unique identifier for the retail store terminal. Needed for FullService  (RETAIL channel). Need to discuss with CSP business liaison if there is a need for Partner to pass their retail Store Id).",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "tillid",
+            "in": "header",
+            "description": "Unique identifier for the retail register. Needed for FullService  (RETAIL channel). Need to discuss with CSP business liaison if there is a need for Partner to pass their retail Store Id).",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "timestamp",
+            "in": "header",
+            "description": "A timestamp provided by sender to track their workflow. If it is empty APIGEE can send current system timestamp.",
+            "required": false,
+            "type": "string",
+            "format": "date-time"
+          },
+          {
+            "name": "workflowid",
+            "in": "header",
+            "description": "Workflow name (NEW/ADD/EXCHANGE/RETURN)/OrderTypes _ ACTIVATION ADDALINE CHANGEDEVICE_JUMP CHANGEDEVICE",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returning a updated bill balances collection.",
+            "schema": {
+              "$ref": "#/definitions/updatedBillBalanceCollection"
+            },
+            "headers": {
+              "Content-Length": {
+                "description": "The Content-Length header specifies the actual length of the returned payload.",
+                "type": "string"
+              },
+              "Content-Type": {
+                "description": "The Content-Length header specifies the actual length of the returned payload.",
+                "type": "string"
+              },
+              "Date": {
+                "description": "The date and time that the message was originated (in HTTP-date format as defined by RFC 7231 Date/Time Formats).",
+                "type": "string",
+                "format": "date-time"
+              },
+              "Location": {
+                "description": "The Location header specifies the URI of a created resource, or redirects the API consumer to an alternate resource location.",
+                "type": "string"
+              },
+              "Transfer-Encoding": {
+                "description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity.",
+                "type": "string"
+              },
+              "servicetransactionid": {
+                "description": "Internal identifier for transaction tracking an individual transaction/API request within API platform. Don_t receive/don_t send to downstream",
+                "type": "string"
+              }
+            }
+          },
+          "207": {
+            "description": "Partial success",
+            "schema": {
+              "$ref": "#/definitions/updatedBillBalanceCollection"
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "schema": {
+              "$ref": "#/definitions/errorCollection"
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "schema": {
+              "$ref": "#/definitions/errorCollection"
+            }
+          },
+          "404": {
+            "description": "Resource not found",
+            "schema": {
+              "$ref": "#/definitions/errorCollection"
+            }
+          },
+          "500": {
+            "description": "System Error",
+            "schema": {
+              "$ref": "#/definitions/errorCollection"
+            }
+          },
+          "503": {
+            "description": "Service unavailable",
+            "schema": {
+              "$ref": "#/definitions/errorCollection"
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "definitions": {
+    "updatedBillBalance": {
+      "type": "object",
+      "description": "updatedBillBalance response for list of financial account numbers",
+      "properties": {
+        "financialAccount": {
+          "$ref": "#/definitions/billingAccountMng"
+        },
+        "onDemandBillBalance": {
+          "$ref": "#/definitions/invoiceItem"
+        },
+        "billInfo": {
+          "$ref": "#/definitions/billInfo"
+        }
+      }
+    },
+    "financialAccountNumberList": {
+      "type": "array",
+      "description": "List of financial account numbers.",
+      "items": {
+        "type": "string",
+        "description": "financial account number."
+      }
+    },
+    "updatedBillBalanceCollection": {
+      "type": "object",
+      "description": "A collection of updatedBillBalanceCollection objects.",
+      "properties": {
+        "onDemandBillBalanceList": {
+          "description": "This service is for getting the updatedBillBalance for list of Financial Account numbers",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/updatedBillBalance"
+          }
+        },
+        "errorList": {
+          "description": "Describes the list structure for response of payment and reversal.",
+          "type": "array",
+          "minItems": 0,
+          "items": {
+            "properties": {
+              "financialAccountNumber": {
+                "type": "string"
+              },
+              "error": {
+                "$ref": "#/definitions/billBalanceError"
+              }
+            }
+          }
+        }
+      }
+    },
+    "billingAccountMng": {
+      "type": "object",
+      "properties": {
+        "financialAccountNumber": {
+          "type": "string",
+          "description": "financial account number"
+        },
+        "autoPay": {
+          "type": "string",
+          "description": "An indicator to state if the financial account is registered to autopay. in case the indicator is 'R' the value set to 'opt-out', otherwise 'opt-in'"
+        },
+        "delinquencyStatus": {
+          "type": "string",
+          "description": "An indicator stating deliquency status of the financial account. Valid values: 'Delinquent', 'Normal'"
+        },
+        "arBalance": {
+          "type": "string",
+          "description": "The current AR balance of the account, as updated in the AR system"
+        },
+        "billmedia": {
+          "type": "string",
+          "description": "Paperless indicator.valid values: Electronic, Paper"
+        }
+      }
+    },
+    "invoiceItem": {
+      "type": "object",
+      "properties": {
+        "prevBalance": {
+          "type": "string",
+          "description": "The total sum of the balance forward from the previous bill and current immediate charge that were open when bill run"
+        },
+        "currentBalance": {
+          "type": "string",
+          "description": "The total sum of all charges from the last confirmed cycle"
+        },
+        "totalDue": {
+          "type": "string",
+          "description": "The total due of the bill - sum of prevBalance and currentBalance"
+        },
+        "billedPastDueAmount": {
+          "type": "string",
+          "description": "The total due of the bill after passing the passed due date."
+        },
+        "unBilledPastDueAmount": {
+          "type": "string",
+          "description": "The total sum of all immediate unbilled charges since last confirmed bill."
+        }
+      }
+    },
+    "billInfo": {
+      "type": "object",
+      "properties": {
+        "cycleStartDate": {
+          "type": "string",
+          "description": "The cycle start date of the last confirmd bill"
+        },
+        "cycleEndDate": {
+          "type": "string",
+          "description": "The cycle end date of the last confirmd bill"
+        },
+        "dueDate": {
+          "type": "string",
+          "description": "The due date of the last confirmed bill"
+        },
+        "type": {
+          "type": "string",
+          "description": "An indicator stating if the bill if final. Valid values: Latest, Final, None"
+        },
+        "totalAmountDue": {
+          "type": "number",
+          "description": "The total due amount of the last confirmed bill",
+          "example": "0.0"
+        }
+      }
+    },
+    "billBalanceError": {
+      "description": "Error object.",
+      "type": "object",
+      "properties": {
+        "code": {
+          "description": "A specific Digital Billing error code.",
+          "type": "string"
+        },
+        "userMessage": {
+          "description": "A human-readable message describing the error.",
+          "type": "string"
+        },
+        "systemMessage": {
+          "description": "Backend system error message.",
+          "type": "string"
+        }
+      }
+    },
+    "errorCollection": {
+      "description": "The array of error objects. As defined in http://localhost/status_codes/error-response-format/",
+      "type": "object",
+      "properties": {
+        "errors": {
+          "$ref": "#/definitions/billBalanceError"
+        }
+      }
+    }
+  },
+  "securityDefinitions": {}
+}
